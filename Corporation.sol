@@ -1,6 +1,6 @@
 /*
 Corporation SmartContract.
-developed by: cryptonomica.net, 2016
+developed by: CoinOffering Ltd., 2016
 
 used sources:
 https://www.ethereum.org/token // example of the token standart
