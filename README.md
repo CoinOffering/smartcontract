@@ -2,6 +2,4 @@
 Base smart contract of the real corporation (legal person) with shares as tokens on Ethereum blockchain
 
 
-deployed on: 
-
-[0xa717d73a2f32475591acc3517b8d46f9224932c4c64fe69b88f5f35dac9a7807](https://etherscan.io/tx/0xa717d73a2f32475591acc3517b8d46f9224932c4c64fe69b88f5f35dac9a7807)
+deployed on: [0x684282178b1d61164febcf9609ca195bef9a33b5](https://etherscan.io/address/0x684282178b1d61164febcf9609ca195bef9a33b5) 
