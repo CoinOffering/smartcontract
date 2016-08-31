@@ -284,7 +284,9 @@ contract Corporation {
             address voter = votes[_proposalID][i];
             result = result + balanceOf[voter];
         }
-
+        
+        // store result 
+        results[_proposalID] = result;
         // Log and notify anyone listening that this voting finished
         // with 'result' - number of 'yes' votes
         VotingFinished(_proposalID, result);
