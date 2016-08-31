@@ -12,7 +12,7 @@ https://www.ethereum.org/dao // voting example
 How to deploy (estimated: 1,641,268 gas):
 1) For development: use https://ethereum.github.io/browser-solidity/
 2) For testing on Testnet: Open the default ('Mist') wallet (if you are only testing, go to the menu develop > network > testnet), go to the Contracts tab and then press deploy contract, and on the solidity code box, paste the code above.
-3) For prodaction, like in 2) but on Main Network.
+3) For production, like in 2) but on Main Network.
 To verify your deployed smartcontract source code for public go to:
 https://etherscan.io/verifyContract
 */
@@ -42,7 +42,7 @@ contract Corporation {
     /* ------------------- Corporate Stock Ledger ---------- */
     // Shares, shareholders, balances ect.
 
-    // list of all sharehoders (represented by Ethereum accounts)
+    // list of all shareholders (represented by Ethereum accounts)
     // in this Corporation's history, # is ID
     address[] public shareholder;
     // this helps to find address by ID without loop
@@ -152,7 +152,7 @@ contract Corporation {
     }
 
     /* this function can be called from another contract, after it
-    have allowance to transfer shares in behalf of sharehoder  */
+    have allowance to transfer shares in behalf of shareholder  */
     function transferFrom(address _from,
                           address _to,
                           uint256 _value)
